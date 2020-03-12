@@ -1,0 +1,11 @@
+{
+  "pluginsFile": "tests/e2e/plugins/index.js",
+  "baseUrl": "http://localhost:8080/#/",
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportDir": "tests/e2e/htmlOut",
+    "overwrite": false,
+    "html": true,
+    "json": true
+  }
+}

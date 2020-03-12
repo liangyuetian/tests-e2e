@@ -1,0 +1,38 @@
+{
+  "name": "s",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "cy:run": "cypress run",
+    "test:run": "start-server-and-test start http://localhost:8080 cy:run"
+  },
+  "dependencies": {
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.2",
+    "vue-property-decorator": "^8.3.0",
+    "vue-router": "^3.1.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-plugin-e2e-cypress": "~4.2.0",
+    "@vue/cli-plugin-router": "~4.2.0",
+    "@vue/cli-plugin-typescript": "~4.2.0",
+    "@vue/cli-plugin-unit-jest": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "@vue/test-utils": "1.0.0-beta.31",
+    "mocha": "^7.1.0",
+    "mochawesome": "^5.0.0",
+    "mochawesome-merge": "^4.0.2",
+    "mochawesome-report-generator": "^4.1.0",
+    "start-server-and-test": "^1.10.9",
+    "typescript": "~3.7.5",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
